@@ -68,6 +68,19 @@ function Navbar() {
                             </Link>
                         )}
                     </li>
+                    <li className="nav-btn">
+                        {button ? (
+                            <Link to='/sign-up' className="btn-link">
+                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                            </Link>
+                        ): (
+                            <Link to='/sign-up' className="btn-link">
+                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
+                                SIGN IN
+                                </Button>
+                            </Link>
+                        )}
+                    </li>
                 </ul> 
             </div>
         </nav>
