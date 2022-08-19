@@ -26,15 +26,10 @@ function HeroSection({
                 <div className="col">
                   <div className='home-hero-text-wrapper'>
                     <div className="top-line">{topLine}</div>
-                    <h1 className>{headLine}</h1>
+                    <h1 className='heading'>{headLine}</h1>
                     <p className="home-hero-subtitle">
                       {description}
                     </p>
-                    {/* <Link>
-                      <Button>
-                        {buttonLabel}
-                      </Button>
-                    </Link> */}
                   </div>
                 </div>
                 <div className="col">
