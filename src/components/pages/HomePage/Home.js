@@ -7,6 +7,7 @@ function Home() {
     <>
         <HeroSection {...homeObjOne} />
         <HeroSection {...homeObjTwo} />
+        {/* <HeroSection {...homeObjThree} /> */}
     </>
   )
 }

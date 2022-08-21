@@ -34,7 +34,7 @@ function Navbar() {
             <div className="navbar-container container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
                     <RiComputerLine className="navbar-icon" />
-                    Jones Technologies
+                    Tech-World
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}
@@ -55,19 +55,7 @@ function Navbar() {
                             Contact
                         </Link>
                     </li>
-                    <li className="nav-btn">
-                        {button ? (
-                            <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN UP</Button>
-                            </Link>
-                        ): (
-                            <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN UP
-                                </Button>
-                            </Link>
-                        )}
-                    </li>
+                  
                     <li className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
