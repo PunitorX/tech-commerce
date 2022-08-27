@@ -1,9 +1,12 @@
-import React, {useState, useEffect} from "react";
+import React, {createContext, useState, useEffect} from "react";
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {RiComputerLine} from 'react-icons/ri'
 import './Navbar.css'
 import {Button} from './Button';
+import ReactSwitch from 'react-switch'
+
+export const ThemeContext = createContext(null);
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -11,6 +14,8 @@ function Navbar() {
 
     const handleClick = () => setClick(!click);
     const closeMobile = () => setClick(false);
+
+    const [theme, setTheme] = useState('dark');
 
     const showButton = () => {
         if(window.innerWidth <= 960) {
@@ -28,9 +33,14 @@ function Navbar() {
     //     }
     // }, [])
 
+    const toggleTheme = () => {
+        setTheme((curr) => (curr === 'light' ? 'dark' : 'light'));
+      };
+
   return (
     <>
-        <nav className="navbar">
+        <ThemeContext.Provider value={{theme, toggleTheme}}>
+        <nav className="navbar" id={theme}>
             <div className="navbar-container container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
                     <RiComputerLine className="navbar-icon" />
@@ -69,9 +79,14 @@ function Navbar() {
                             </Link>
                         )}
                     </li>
+
+                    <li className="switch">
+                        <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'} />
+                    </li>
                 </ul> 
             </div>
         </nav>
+        </ThemeContext.Provider>
     </>
   )
 }
