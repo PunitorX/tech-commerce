@@ -8,7 +8,7 @@ function HeroSection({
     lightText, 
     lightTextDesc,
     headLine,
-    description,<div className=""></div>
+    description,
     buttonLabel,
     img,
     alt,
