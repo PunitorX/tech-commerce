@@ -12,9 +12,20 @@
 }
 
 .btn--primary {
-    background-color:  #353935;
+    color: #004d40;
+    border: 1px solid #004d40;
+}
+
+#light .btn--primary {
+    background-color: #80cbc4;
+    color: #004d40;
+    border: 1px solid #004d40;
+}
+
+#dark .btn--primary {
+    background-color: #343434;
     color: #fff;
-    border: 1px solid var(--primary);
+    border: 1px solid #fff;
 }
 
 .btn--outline {
@@ -23,6 +34,10 @@
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
+}
+
+#btn--outline {
+    color: #004d40;
 }
 
 .btn--medium {

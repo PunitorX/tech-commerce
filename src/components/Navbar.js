@@ -15,7 +15,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobile = () => setClick(false);
 
-    const [theme, setTheme] = useState('dark');
+    const [theme, setTheme] = useState('light');
 
     const showButton = () => {
         if(window.innerWidth <= 960) {
