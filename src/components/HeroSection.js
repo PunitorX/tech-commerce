@@ -1,7 +1,6 @@
 import React from 'react'
-import {Button} from './Button'
-import {Link} from 'react-router-dom';
 import './HeroSection.css';
+import {useState} from 'react'
 
 function HeroSection({
     colorBg,
@@ -9,15 +8,19 @@ function HeroSection({
     lightText, 
     lightTextDesc,
     headLine,
-    description,
+    description,<div className=""></div>
     buttonLabel,
     img,
     alt,
-    imgStart
+    imgStart,
+    Navbar
 }) {
+
+  const [theme] = useState('light');
+
   return (
     <>
-        <div className={colorBg ? 'home-section milkBg' : 'home-section creamBg'}>
+        <div className='home-section' id={Navbar}>
             <div className="container">
               <div className="row home-hero-row"
               style={{display: 'flex',
@@ -39,7 +42,7 @@ function HeroSection({
                 </div>
               </div>
             </div>
-        </div>
+        </div>       
     </>
   )
 }
