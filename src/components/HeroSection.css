@@ -1,14 +1,15 @@
 .home-section {
-    color: #fff;
-    padding: 160px 0;;
+    padding: 160px 0;
 }
 
-.milkBg {
-    background-color: #007c91;
+#light .home-section {
+    background: #fff;
+    color: #004d40;
 }
 
-.creamBg {
-    background-color: #007c91;
+#dark .home-section {
+    background: #90a4ae;
+    color: #004d40;  
 }
 
 .home__hero-row {
