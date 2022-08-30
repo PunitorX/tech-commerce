@@ -34,7 +34,7 @@ function Navbar() {
             <div className="navbar-container container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
                     <RiComputerLine className="navbar-icon" />
-                    Tech-World
+                    Tech-Commerce
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}

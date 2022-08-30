@@ -7,7 +7,8 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #455a64;
+    background: #37474f;
+    border-bottom: #616161 2px solid;
 }
 
 .navbar-container {
@@ -59,7 +60,6 @@
 
 .nav-links:hover {
     transition: all 0.6s ease;
-    border-bottom: 1px solid #fff;
 }
 
 .menu-icon {

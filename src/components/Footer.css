@@ -1,4 +1,6 @@
 .footer {
-    background: #343434;
-    padding: 100px 60px;
+    /* background: #343434; */
+    padding: 160px 60px;
+    background: #37474f;
+    border-top: #616161 2px solid;
 }

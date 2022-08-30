@@ -1,46 +1,36 @@
-import React from 'react'
-import {createContext, useState} from 'react'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
+import { Button } from './Button'
+import { Card } from './Card'
 import './HeroSection.css'
 
-export const ThemeContext = createContext(null);
+function HeroSection() {
+  const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true);
+  const [card, setCard] = useState(true);
 
-function HeroSection({
-    colorBg,
-    topLine,
-    lightText, 
-    lightTextDesc,
-    headLine,
-    description,
-    buttonLabel,
-    img,
-    alt,
-    imgStart,
-    theme
-}) {
+  const closeMobile = () => setClick(false);
 
   return (
     <>
-        <div className='home-section' id={theme}>
+        <div className='home-section'>
             <div className="container">
-              <div className="row home-hero-row"
-              style={{display: 'flex',
-                      flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'        
-              }}>
-                <div className="col">
-                  <div className='home-hero-text-wrapper'>
-                    <div className="top-line">{topLine}</div>
-                    <h1 className='heading'>{headLine}</h1>
-                    <p className="home-hero-subtitle">
-                      {description}
-                    </p>
-                  </div>
-                </div>
-                <div className="col">
-                  <div className="home-hero-img-wrapper">
-                    <img src={img} alt={alt} className="home-hero-img" />
-                  </div>
-                </div>
+              <div className="card-btn">
+              {button ? (
+                            <Link to='/sign-up' className="btn-link">
+                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                            </Link>
+                        ): (
+                            <Link to='/sign-up' className="btn-link">
+                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
+                                SIGN IN
+                                </Button>
+                            </Link>
+                        )}
               </div>
+              {/* <div className="card">
+                  {card (<Link></Link>)}
+              </div> */}
             </div>
         </div>       
     </>

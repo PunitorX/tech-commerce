@@ -12,19 +12,9 @@
 }
 
 .btn--primary {
-    color: #004d40;
-    border: 1px solid #004d40;
-}
-
-#light .btn--primary {
-    background-color: #80cbc4;
-    color: #004d40;
-    border: 1px solid #004d40;
-}
-
-#dark .btn--primary {
-    background-color: #455a64;
     color: #fff;
+    border: 1px solid #004d40;
+    background-color: #455a64;
     border: 1px solid #fff;
 }
 
@@ -64,20 +54,12 @@
     transition: all 0.3s ease-out;
 }
 
-#light .btn--large:hover,
-#light .btn--medium:hover,
-#light .btn--mobile:hover {
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
   transition: all 0.3s ease-out;
   background: #fff;
   color: #004d40;
-}
-
-#dark .btn--large:hover,
-#dark .btn--medium:hover,
-#dark .btn--mobile:hover {
-  transition: all 0.3s ease-out;
-  background: #fff;
-  color: #242424;
 }
 
 .btn-link {
