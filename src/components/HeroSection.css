@@ -2,16 +2,6 @@
     padding: 160px 0;
 }
 
-#light .home-section {
-    background: #fff;
-    color: #004d40;
-}
-
-#dark .home-section {
-    background: #90a4ae;
-    color: #004d40;  
-}
-
 .home__hero-row {
     align-items: center;
 }

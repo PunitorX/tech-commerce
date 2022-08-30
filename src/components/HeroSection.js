@@ -1,6 +1,8 @@
 import React from 'react'
-import './HeroSection.css';
-import {useState} from 'react'
+import {createContext, useState} from 'react'
+import './HeroSection.css'
+
+export const ThemeContext = createContext(null);
 
 function HeroSection({
     colorBg,
@@ -13,14 +15,12 @@ function HeroSection({
     img,
     alt,
     imgStart,
-    Navbar
+    theme
 }) {
-
-  const [theme] = useState('light');
 
   return (
     <>
-        <div className='home-section' id={Navbar}>
+        <div className='home-section' id={theme}>
             <div className="container">
               <div className="row home-hero-row"
               style={{display: 'flex',
