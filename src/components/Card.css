@@ -3,15 +3,23 @@ body {
 }
 
 .App {
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
 }
 
 .Card {
     background: #fff;
     padding: 3rem 5rem;
+    margin: 2rem;
+    position: sticky;
+}
+
+.card-h2 {
+    text-align: center;
 }
 
 .Card p {
@@ -20,5 +28,10 @@ body {
 }
 
 .expand {
-    width: 35rem;
+    height: 10rem;
+    width: 15rem;
+}
+
+.card-img {
+    position: sticky;
 }

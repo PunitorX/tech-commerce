@@ -28,9 +28,6 @@ function HeroSection() {
                             </Link>
                         )}
               </div>
-              {/* <div className="card">
-                  {card (<Link></Link>)}
-              </div> */}
             </div>
         </div>       
     </>
