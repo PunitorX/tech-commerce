@@ -33,9 +33,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
-                    {/* <div className="navbar-img">
-                        <img src="./images/gaming.png" alt="gaming" className="img-img"/>
-                    </div> */}
+                    <img src="./images/power.png" alt="power" className="navbar-img"/>
                     Tech-Commerce
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
