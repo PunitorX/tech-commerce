@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, #2c5364, #203a43);
+    height: auto;
 }
 
 .App {
@@ -9,13 +10,23 @@ body {
     align-items: center;
     flex-wrap: wrap;
     font-size: 0.9rem;
+    padding: 3rem;
+    margin: 3rem;
 }
 
 .Card {
     background: #fff;
-    padding: 3rem 5rem;
-    margin: 2rem;
-    position: sticky;
+    padding: 2rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.card-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-bottom: 1rem;
 }
 
 .card-h2 {
@@ -30,8 +41,4 @@ body {
 .expand {
     height: 10rem;
     width: 15rem;
-}
-
-.card-img {
-    position: sticky;
 }

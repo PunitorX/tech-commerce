@@ -13,8 +13,7 @@
 
 .btn--primary {
     color: #fff;
-    border: 1px solid #004d40;
-    background-color: #455a64;
+    background: linear-gradient(to right, #2c5364, #203a43);
     border: 1px solid #fff;
 }
 
@@ -60,6 +59,7 @@
   transition: all 0.3s ease-out;
   background: #fff;
   color: #004d40;
+  
 }
 
 .btn-link {

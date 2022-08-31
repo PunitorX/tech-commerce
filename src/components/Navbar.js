@@ -33,7 +33,9 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
-                    <RiComputerLine className="navbar-icon" />
+                    {/* <div className="navbar-img">
+                        <img src="./images/gaming.png" alt="gaming" className="img-img"/>
+                    </div> */}
                     Tech-Commerce
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
