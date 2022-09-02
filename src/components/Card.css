@@ -3,6 +3,14 @@ body {
     height: auto;
 }
 
+.header {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
 .App {
     min-height: 40vh;
     display: flex;

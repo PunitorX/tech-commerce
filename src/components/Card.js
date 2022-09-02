@@ -14,6 +14,13 @@ function Card() {
     const closeMobile = () => setClick(false);
 
     return (
+        <>
+        <div className="header">
+            <motion.h1 className="h1-header">
+                <span>Parts and Equipment</span>
+            </motion.h1>
+        </div>
+
         <div className='App'>
         <motion.div transition={{layout: {duration: 1, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='Card' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '340px'}}>
             <motion.img layout='position' src="./images/hardware.png" alt="hardware" className='card-img'/>
@@ -397,6 +404,7 @@ function Card() {
         </motion.div>
    
     </div>
+    </>
     
   )
 }
