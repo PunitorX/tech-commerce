@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
         <Card />
-        <HeroSection />
+        <HeroSection />?
     </>
   )
 }
