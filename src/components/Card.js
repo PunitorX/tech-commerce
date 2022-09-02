@@ -32,12 +32,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -65,12 +65,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -97,12 +97,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -129,12 +129,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -162,12 +162,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -194,12 +194,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -218,7 +218,7 @@ function Card() {
             <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{duration: 5 }}
+            transition={{duration: 1 }}
             className='expand'>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quae aspernatur sint ratione maiores eos hic quo molestias quibusdam architecto. 
@@ -226,12 +226,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -250,7 +250,7 @@ function Card() {
             <motion.div 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{duration: 5 }}
+            transition={{duration: 1 }}
             className='expand'>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quae aspernatur sint ratione maiores eos hic quo molestias quibusdam architecto. 
@@ -258,12 +258,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -289,12 +289,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -320,12 +320,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -351,12 +351,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
@@ -382,12 +382,12 @@ function Card() {
                 <motion.div className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--outline'>Explore</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobile}>
-                                SIGN IN
+                                <Button buttonStyle='btn--primary' buttonSize='btn--mobile' onClick={closeMobile}>
+                                Explore
                                 </Button>
                             </Link>
                         )}
