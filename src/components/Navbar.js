@@ -30,7 +30,7 @@ function Navbar() {
   return (
     <>    
         <nav className="navbar">
-            <div className="navbar-container container">
+            <div className="navbar-container contained">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
                     <img src="./images/power.png" alt="power" className="navbar-img"/>
                     Tech-Commerce

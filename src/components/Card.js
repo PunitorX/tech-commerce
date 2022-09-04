@@ -15,6 +15,7 @@ function Card() {
 
     return (
         <>
+        <div className="card-body">
         <div className="header">
             <motion.h1 className="h1-header">
                 <span>Parts and Equipment</span>
@@ -403,6 +404,7 @@ function Card() {
             )}           
         </motion.div>
    
+    </div>
     </div>
     </>
     

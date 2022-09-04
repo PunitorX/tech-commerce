@@ -1,6 +1,11 @@
 body {
+    /* height: 150vh; */
+}
+
+.card-body {
     background: linear-gradient(to right, #2c5364, #203a43);
-    height: 150vh;
+    opacity: .9;
+    /* height: 175vh; */
 }
 
 .header {
@@ -17,8 +22,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-size: 0.9rem;
-    /* padding: 3rem; */
-    margin: 2rem;
+    padding: 3rem
 }
 
 .Card {
