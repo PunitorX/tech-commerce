@@ -92,6 +92,11 @@
         z-index: 1;
     }
 
+    .navbar-photo {
+       width: 70%;
+       transform: translate(5%, -25%);
+    }
+
     .nav-links {
         text-align: center;
         padding: 2rem;

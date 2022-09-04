@@ -39,6 +39,9 @@ function Navbar() {
                     {click ? <FaTimes/> : <FaBars/>}
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
+                    {/* <img src="./images/reviews.svg" className="navbar-photo" /> */}
+
                     <li className="nav-item">
                         <Link to='/products' className="nav-links" onClick={closeMobile}>
                             Products

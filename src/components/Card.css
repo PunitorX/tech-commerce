@@ -4,7 +4,7 @@ body {
 
 .card-body {
     background: linear-gradient(to right, #2c5364, #203a43);
-    opacity: .9;
+    /* opacity: .9; */
     /* height: 175vh; */
 }
 
