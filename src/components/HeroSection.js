@@ -3,11 +3,11 @@ import {motion} from 'framer-motion';
 import './HeroSection.css'
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
+import SearchBar from './SearchBar';
 
 function HeroSection({
   header,
-  headDesc,
-  details
+  headDesc
 }) {
 
   const [click, setClick] = useState(false);
@@ -27,15 +27,29 @@ function HeroSection({
               <div className="home-desc">
                 {headDesc}
               </div>
-              <div className="home-detail">
-                {details}
+              <div className="home-search">
+                <SearchBar />
               </div>
             </div>
           </div>            
         </div> 
 
         <div className="half-section">
-          <motion.div transition={{layout: {duration: 1, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='Card' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '340px'}}>
+
+          <div className="half-card">
+            <div className="half-display">
+
+            </div>
+            <div className="half-display">
+              
+            </div>
+            <div className="half-display">
+              
+            </div>
+          </div>
+
+
+          {/* <motion.div transition={{layout: {duration: 1, type: 'spring'}}} layout onClick={() => setIsOpen(!isOpen)} className='Card' style={{borderRadius: '1rem', boxShadow: '0px 10px 30px rgba(0,0,0, 0.5', width: '340px'}}>
               <motion.h2 layout='position' className='card-h2'>
                   Video Cards 
               </motion.h2>
@@ -48,7 +62,7 @@ function HeroSection({
                   
               </motion.div>
             )}           
-        </motion.div>
+        </motion.div> */}
         </div>      
     </>
   )

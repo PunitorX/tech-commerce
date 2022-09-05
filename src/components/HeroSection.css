@@ -3,8 +3,8 @@
 .home-section {
     background: rgba(255, 255, 255);
     color: black;
-    padding-top: 150px;
-    padding-bottom: 220px;
+    padding-top: 120px;
+    padding-bottom: 180px;
     background-image: url('/public/images/backgroundtwo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,11 +39,11 @@
     text-align: center;
 }
 
-.home-detail {
+/* .home-detail {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     text-align: center;
-}
+} */
 
 
 
@@ -67,4 +67,23 @@
 .half-section {
     height: 46vh;
     background: linear-gradient(to right, #2c5364, #203a43);
+}
+
+.half-card {
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    padding: 1rem 2rem 3rem 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.half-display {
+    background: #fff;
+    width: 20%;
+    margin: 3rem;
+    cursor: pointer;
+    border-radius: 20px;
 }

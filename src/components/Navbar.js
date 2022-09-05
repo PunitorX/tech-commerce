@@ -61,7 +61,7 @@ function Navbar() {
                     <li className="nav-btn">
                         {button ? (
                             <Link to='/sign-up' className="btn-link">
-                                <Button buttonStyle='btn--primary'>SIGN IN</Button>
+                                <Button buttonStyle='btn--primary' buttonSize='btn--medium'>SIGN IN</Button>
                             </Link>
                         ): (
                             <Link to='/sign-up' className="btn-link">
