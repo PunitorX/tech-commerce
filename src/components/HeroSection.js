@@ -3,7 +3,7 @@ import {motion} from 'framer-motion';
 import './HeroSection.css'
 import { Link } from 'react-router-dom';
 import { Button } from './Button';
-import SearchBar from './SearchBar';
+import {SearchBar} from './SearchBar';
 
 function HeroSection({
   header,
@@ -11,7 +11,7 @@ function HeroSection({
 }) {
 
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [searchBar, setSearchBar] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
 
   const closeMobile = () => setClick(false);
@@ -28,7 +28,15 @@ function HeroSection({
                 {headDesc}
               </div>
               <div className="home-search">
-                <SearchBar />
+                {searchBar ? 
+                  (<Link to='#' className='home-search-bar'>
+                    <SearchBar inputStyle='search-primary' inputSize='search-large'></SearchBar>
+                  </Link>) 
+                  : (
+                    <Link to='#' className='home-search-bar'>
+                    <SearchBar inputStyle='search-primary' inputSize='search-large'></SearchBar>
+                  </Link>
+                  )}
               </div>
             </div>
           </div>            
