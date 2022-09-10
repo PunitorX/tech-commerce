@@ -48,7 +48,9 @@
     height: 100%;
     text-transform: uppercase;
     color: #fff;
-    transition: all ease-in 0s;
+    transition: all ease-in-out 0.3s;
+    border-radius: 10px;
+    letter-spacing: 2px;
 }
 
 .menu-icon {
@@ -57,16 +59,21 @@
 
 .cart-icon {
     cursor: pointer;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.3rem;
     color: #fff;
     font-size: 1.7rem;
 }
 
-.nav-links:hover,
+.nav-links:hover {
+    background-color: #fff;
+    color: #000;
+    opacity: 0.6;
+}
+
 .cart-icon:hover {
     background-color: #fff;
     color: #000;
-    border-radius: 5px;
+    border-radius: 50%;
     opacity: 0.6;
 }
 
