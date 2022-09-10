@@ -22,7 +22,8 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     font-size: 0.9rem;
-    padding: 3rem
+    padding: 3rem;
+    letter-spacing: 1px;
 }
 
 .Card {
@@ -42,6 +43,7 @@ body {
 
 .card-h2 {
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .Card p {
