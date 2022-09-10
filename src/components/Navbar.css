@@ -1,8 +1,5 @@
 .navbar {
     height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -14,18 +11,8 @@
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
     height: 80px;
-}
-
-.contained {
     z-index: 1;
-    width: 100%;
-    max-width: 1300px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 50px;
-    padding-left: 50px;
 }
 
 .navbar-name {
@@ -33,7 +20,6 @@
     align-items: center;
     font-size: 1.8rem;
     justify-self: start;
-    cursor: pointer;
     text-decoration: none;
     color: #fff;
     letter-spacing: 1px;
@@ -41,30 +27,47 @@
 
 .navbar-img {
     display: block;
-    margin-left: 1rem;
+    margin-left: 3rem;
     margin-right: 2rem;
     width: 10%;
 }
 
 .nav-menu {
     display: flex;
+    margin-right: 6rem;
     align-items: center;
-    justify-content: center;
     list-style: none;
-    text-align: center;
+    
 }
 
 .nav-links {
+    cursor: pointer;
     text-decoration: none;
     align-items: center;
     padding: 1rem 1.5rem;
     height: 100%;
     text-transform: uppercase;
     color: #fff;
+    transition: all ease-in 0s;
 }
 
 .menu-icon {
     display: none;
+}
+
+.cart-icon {
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.nav-links:hover,
+.cart-icon:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    opacity: 0.6;
 }
 
 @media screen and (max-width:768px) {
