@@ -78,6 +78,10 @@ function Navbar({sizeStyle}) {
                         <FaShoppingCart />
                     </li>  
                 </ul> 
+
+                <div className="nav-icon" onClick={handleClick}>
+                    {click ? <FaTimes/> : <FaBars/>}
+                </div>
             </div>
         </nav>
     </>

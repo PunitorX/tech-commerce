@@ -29,12 +29,12 @@
     display: block;
     margin-left: 3rem;
     margin-right: 2rem;
-    width: 10%;
+    width: 15%;
 }
 
 .nav-menu {
     display: flex;
-    margin-right: 6rem;
+    padding-right: 2rem;
     align-items: center;
     list-style: none;
     
@@ -58,10 +58,21 @@
 }
 
 .cart-icon {
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    padding: 1rem 1.3rem;
+    padding: 1rem 1.2rem;
     color: #fff;
     font-size: 1.7rem;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 4rem;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .nav-links:hover {
