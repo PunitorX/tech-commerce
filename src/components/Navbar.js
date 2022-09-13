@@ -35,7 +35,7 @@ function Navbar({sizeStyle}) {
             <div className="navbar-container">
                 <Link to='/' className="navbar-name" onClick={closeMobile}>
                     <img src="./images/power.png" alt="power" className="navbar-img"/>
-                    Tech-Commerce
+                    <h2 className="navbar-header">Tech-Commerce</h2>
                 </Link>
 
                 <SearchBar placeholder='Enter an Item...'/>
@@ -78,6 +78,10 @@ function Navbar({sizeStyle}) {
                         <FaShoppingCart />
                     </li>  
                 </ul> 
+
+                <li className="cart-icon-two">
+                        <FaShoppingCart />
+                </li>
 
                 <div className="nav-icon" onClick={handleClick}>
                     {click ? <FaTimes/> : <FaBars/>}

@@ -7,3 +7,36 @@
     box-sizing: border-box;
 }
 
+/* Responsive Navbar Styles */
+
+/* @media screen and (max-width: 1600px) {
+    .navbar-container {
+        position: fixed;
+    }
+} */
+
+@media screen and (max-width: 1024px) {
+    .navbar-container {
+        position: fixed;
+    }
+
+    .navbar-img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-container {
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-container {
+        position: fixed;
+    }
+}
+
+
+
+
