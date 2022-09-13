@@ -189,12 +189,6 @@
         width: 90%;  
     }
 
-    .cart-icon {
-        /* display: none; */
-        margin-left: 1rem;
-        margin-right: 2rem;
-    }
-
     .nav-icon {
         display: flex;
         align-items: center;
@@ -233,7 +227,7 @@
     }
 
     .nav-btn {
-        padding-top: 2rem;
+        padding: 2rem;
     }
 
     .nav-links:hover {
@@ -270,7 +264,7 @@
     }
 
     .cart-icon {
-        display: none;
+        padding: 2rem;
     }
 
     .cart-icon-two {
@@ -343,7 +337,7 @@
     }
 
     .cart-icon {
-        display: none;
+        padding: 3rem;
     }
 
     .cart-icon-two {
